@@ -1,0 +1,8 @@
+public class DigitFormatException extends Exception {
+	
+	private String message = "DigitFormatException: can only enter numeric values";
+
+	public String getMessage() {
+		return message;
+	}
+} 

@@ -1,0 +1,22 @@
+TLDDR
+
+Allen McDermott
+
+	To start off with my classes I started off with node which is the 
+backbone of my program. This class contains an array of nodes that is used 
+to create the digit tree. Class DigitTree is used to make the Digit tree and
+allow users to interact using the methods given in the assignment. The test 
+class then makes a menu and lets users navigate to interact with the different 
+digit trees. Run simply runs test which runs DigitTree which uses node to make 
+a digit tree. DigitFormatException is an custom error that is triggered whenever 
+a user tries to input a non numeric String into the tree. 
+
+	One of my main things I tried to do when creating this program was to 
+capitalize on the strengths of digit trees when working with strings. I felt
+ that overall I did a good job in that even though there might be a few instances
+ where I didn't use the digit tree to its full potential. This mainly had to do 
+with the intersect, contains, and subtract methods. I felt like I was fairly
+ efficient with those methods where other data structures like ArrayLists or
+ linkedLists might have been less efficient.
+
+	

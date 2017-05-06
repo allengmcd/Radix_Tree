@@ -1,0 +1,42 @@
+public class DigitTree {
+	node root;
+	int size;
+	int nodeCount;
+
+	public trie()
+	{
+		node k = new node("");
+		root = k;
+		size = 0;
+		nodeCount = 0;
+	}
+	
+	public void clear() {
+		node k = new node("");
+		root = k;
+		size = 0;
+		nodeCount = 0;
+	}
+
+	public boolean add(String s) {
+		node k;
+		k = root;
+		char c;
+		int i;
+		while(s.length()>0){
+			c = s.charAt(0);
+			i = Integer.parseInt(c+"");
+			if(c+""==k.getNext(i).getData()) {
+				k = k.getNext(i);
+			}
+			else {
+				k.setNext(c+"");
+				k = k.getNext(i);
+			}
+			s = s.substring(1);
+		}
+		return true;
+	}
+				
+				 
+}
